@@ -24,7 +24,18 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<h1>兰音的音乐</h1>    <div id="aplayer-FDhClCnR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-PjlEWqUO" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/ali_font.js"/>
+      <url>/js/ali_font.js</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
