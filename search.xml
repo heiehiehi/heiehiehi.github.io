@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>实习日常</title>
+      <link href="/posts/a143b26b.html"/>
+      <url>/posts/a143b26b.html</url>
+      
+        <content type="html"><![CDATA[<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p><p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 诗歌 </tag>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/4a17b156.html"/>
       <url>/posts/4a17b156.html</url>
@@ -21,17 +42,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/ali_font.js"/>
-      <url>/js/ali_font.js</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/runtime.js"/>
       <url>/js/runtime.js</url>
       
@@ -42,11 +52,33 @@
     
     
     <entry>
+      <title></title>
+      <link href="/js/ali_font.js"/>
+      <url>/js/ali_font.js</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的歌单</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-nmqPZrEe" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
+        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-XijBbZzD" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
       
     </entry>
     
