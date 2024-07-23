@@ -41,31 +41,20 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/ali_font.js"/>
-      <url>/js/ali_font.js</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>我的歌单</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-CTpHoNFp" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
+        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-BgsmFpTB" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/js/ali_font.js"/>
+      <url>/js/ali_font.js</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -79,6 +68,17 @@
       <url>/js/runtime.js</url>
       
         <content type="html"><![CDATA[var now=new Date;function createtime(){var t=new Date("07/10/2024 00:00:00");now.setTime(now.getTime()+250);var e=(now-t)/1e3/60/60/24,a=Math.floor(e),n=(now-t)/1e3/60/60-24*a,r=Math.floor(n);1==String(r).length&&(r="0"+r);var s=(now-t)/1e3/60-1440*a-60*r,i=Math.floor(s);1==String(i).length&&(i="0"+i);var o=(now-t)/1e3-86400*a-3600*r-60*i,l=Math.round(o);1==String(l).length&&(l="0"+l);let g="";g=r<18&&r>=9?`<img class='boardsign' src='https://pic.imgdb.cn/item/66978cf4d9c307b7e9394388.png' title='这里是XingHuiSama的博客熬~'><span class='textTip'> <br> 本站已经运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`:`<img class='boardsign' src='https://pic.imgdb.cn/item/66978cf4d9c307b7e9394388.png' title='小盆栽~'><span class='textTip'> <br> 本站已经运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)}setInterval((()=>{createtime()}),250);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
