@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>安装分子动力学模拟软件GROMACS</title>
+      <link href="/posts/f2ce2789.html"/>
+      <url>/posts/f2ce2789.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><div class="tip cogs"><p class='p bold'>笔者本科是计算机科学与技术，但是研究生研究方向与分子动力学模拟相关，特开此类贴子记录学习</p></div><h2 id="安装软件下载"><a href="#安装软件下载" class="headerlink" title="安装软件下载"></a>安装软件下载</h2><div class="tip cogs"><p class='p bold'>分子动力学常用软件为LAMMPS和GROMACS，笔者这里用GROMACS</p></div><p>&ensp;首先打开下面链接进行安装包下载，可选择自己适合的版本<br><div class="tag link"><a class="link-card" title="GROMACS安装包下载" href="http://sobereva.com/458"><div class="left"><img src="/img/siteicon/64.png"/></div><div class="right"><p class="text">GROMACS安装包下载</p><p class="url">http://sobereva.com/458</p></div></a></div><br>&ensp;笔者这里用的是 2020.6 CUDA GPU加速版，AVX2指令集（88 MB） 版本，如下图一所示<br><img src="https://bu.dusays.com/2024/11/04/6728369714f63.png" alt="图一"><br><div class="tip warning"><p class='p bold'>如果未安装Visual Studio，请下载安装如下插件</p></div><br><div class="tag link"><a class="link-card" title="安装插件" href="https://aka.ms/vs/16/release/VC_redist.x64.exe"><div class="left"><img src="/img/siteicon/64.png"/></div><div class="right"><p class="text">安装插件</p><p class="url">https://aka.ms/vs/16/release/VC_redist.x64.exe</p></div></a></div><br>&ensp;GROMACS安装包下载完成后，将它解压到合适的路径，笔者的路径如图二所示<br><img src="https://bu.dusays.com/2024/11/04/67283874179e1.png" alt="图二"><br>&ensp;解压完成后，在搜索框输入环境变量，选中图三红框所示部分<br><img src="https://bu.dusays.com/2024/11/04/672838ed8aec1.png" alt="图三"><br>&ensp;打开环境变量，如下图四所示<br><img src="https://bu.dusays.com/2024/11/04/6728396a3e2f5.png" alt="图四"><br>&ensp;打开Path，如下图五所示<br><img src="https://bu.dusays.com/2024/11/04/6728399c5e17c.png" alt="图五"><br>&ensp;新建一行，将之前GROMACS安装包解压的路径复制进Path里面，点击保存<span class='p red bold'>请注意，每个人解压的位置不同，路径位置也会不同，笔者这里的路径是D:\gromacs\gmx2020.6_GPU\bin，请读者复制自己的解压路径</span>，如下图六所示<br><img src="https://bu.dusays.com/2024/11/04/67283a1823250.png" alt="图六"><br>&ensp;在搜索框输入CMD，打开如图七所示的命令提示符<br><img src="https://bu.dusays.com/2024/11/04/67283af65a8f7.png" alt="图七"><br>&ensp;在命令行输入gmx，如图八所示<br><img src="https://bu.dusays.com/2024/11/04/67283b657c696.png" alt="图八"><br>&ensp;出现如图九所示界面，<span class='p red bold'>恭喜你，安装成功</span>！<br><img src="https://bu.dusays.com/2024/11/04/67283ba8decba.png" alt="图九"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分子动力学模拟 </category>
+          
+          <category> GROMACS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MATLAB实现获取视频摄像头并实时处理视频帧</title>
       <link href="/posts/f4d3b8c3.html"/>
       <url>/posts/f4d3b8c3.html</url>
@@ -66,9 +93,42 @@
     
     
     <entry>
+      <title>便携小空调 - 为你的夏日带去清凉!</title>
+      <link href="/air-conditioner/index.html"/>
+      <url>/air-conditioner/index.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><p><div id="air-conditioner-vue"></div></p><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/ali_font.js"/>
+      <url>/js/ali_font.js</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -99,44 +159,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/ali_font.js"/>
-      <url>/js/ali_font.js</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>我的歌单</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-skEvzfwG" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>便携小空调 - 为你的夏日带去清凉!</title>
-      <link href="/air-conditioner/index.html"/>
-      <url>/air-conditioner/index.html</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><p><div id="air-conditioner-vue"></div></p><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-BiLVTjDT" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
       
     </entry>
     
