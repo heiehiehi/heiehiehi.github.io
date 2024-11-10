@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>分子动力学模拟基本知识点（1）</title>
+      <link href="/posts/a80b436f.html"/>
+      <url>/posts/a80b436f.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="开场碎碎念"><a href="#开场碎碎念" class="headerlink" title="开场碎碎念"></a>开场碎碎念</h2><div class="tip fa-atom faa-horizontal animated faa-fast"><p>笔者也是分子动力学模拟的初学者，在学习GROMACS的过程中，遇到一些不懂的知识点，在这里做个补充</p></div><h2 id="均方根偏差（RMSD）"><a href="#均方根偏差（RMSD）" class="headerlink" title="均方根偏差（RMSD）"></a>均方根偏差（RMSD）</h2><p>&ensp;RMSD是衡量分子动力学模拟过程中结构稳定性的一个重要参数。它表示某一时刻的构象与目标构象，所有原子偏差的加和的平方根的平均值。RMSD的计算考虑了分子中所有原子的位置变化，因此能够全面反映分子结构的整体稳定性。<br><div class="tip bolt"><p>举个例子，如果RMSD值发生了显著变化，就表明分子中的原子的位置发了变化，可能指示分子发生了构象转变、解折叠或是其他结构的变化</p></div><br>&ensp;在分子动力学模拟中，RMSD值可能随着模拟时间的增加而变化。因此，我们需要选择合适的模拟时间，确保结构的准确性和稳定性。<br>&ensp;<br><div class="tip warning faa-horizontal animated"><p>我们一般认为RMSD&lt;2Å是可接受的（Å=0.1nm）</p></div></p><h2 id="均方根波动（RMSF）"><a href="#均方根波动（RMSF）" class="headerlink" title="均方根波动（RMSF）"></a>均方根波动（RMSF）</h2><p>&ensp;RMSF用于表示蛋白质中氨基酸在动力学模拟过程中的波动程度。通过计算每个残基在整个模拟过程中相对于其平均位置的波动，RMSF提供了一个反映局部动态行为的度量。<br><div class="tip bolt"><p>举个例子，通过RMSF曲线，可以识别出受体和配体结合时可能产生互相作用的区域</p></div><br><div class="tip warning faa-horizontal animated"><p>较高的RMSF值代表该氨基酸具有较大的波动，相反，较低的RMSF值代表该氨基酸波动小。</p></div></p><h2 id="回旋半径（Rg）"><a href="#回旋半径（Rg）" class="headerlink" title="回旋半径（Rg）"></a>回旋半径（Rg）</h2><p>&ensp;Rg是指分子或原子团在空间中相对于其质心的平均距离。在分子动力学模拟中通常用于描述分子结构的紧凑性或松散性。<br><div class="tip bolt"><p>举个例子，一个较小的Rg值表示分子结构较为紧密，而一个较大的Rg值则表示分子结构较为松散。可通过Rg的变化，了解分子结构的动态变化。</p></div><br><div class="tip warning faa-horizontal animated"><p>计算回旋半径Rg需要注意，确保模拟体系已经充分平衡，以避免由于初始条件或模拟参数设置不当而导致的误差。</p></div></p><h2 id="氢键分析"><a href="#氢键分析" class="headerlink" title="氢键分析"></a>氢键分析</h2><p>&ensp;氢键是分子系统中一种重要的非共价结构力，它在生物分子如蛋白质、核酸以及许多有机化合物中广泛存在。氢键的形成与断裂对于分子的稳定性、构象变化以及生物活性等方面都具有重要影响。<br><div class="tip bolt"><p>举个例子，可分析蛋白质内部或蛋白质与其他分子之间形成的氢键数量来判断稳定性</p></div></p><h2 id="自由能"><a href="#自由能" class="headerlink" title="自由能"></a>自由能</h2><p>&ensp;自由能是描述系统稳定状态的物理量，它包括系统的内能和熵。在分子动力学模拟中，自由能主要用于判断系统的稳定状态以及分子间的相互作用情况。通过计算系统在不同状态下的自由能，可以比较这些状态的稳定性。<br><div class="tip bolt"><p>举个例子，自由能较低的状态通常对应于系统的稳定状态，而自由能较高的状态则可能对应于系统的不稳定状态或过渡态。</p></div></p><h2 id="DSSP"><a href="#DSSP" class="headerlink" title="DSSP"></a>DSSP</h2><p>&ensp;DSSP是用于对蛋白质结构中的氨基酸残基进行二级结构构像分类的标准化算法，是至今应用最广泛的二级结构定义系统。它通过分析蛋白质中氨基酸残基的氢键模式和几何特征，将蛋白质二级结构分为α-螺旋、β-折叠、β-转角和无规卷曲等几种类型。<br><div class="tip bolt"><p>举个例子，DSSP可以计算出每个氨基酸残基在每一帧中的二级结构类型，并生成相应的输出文件。</p></div></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分子动力学模拟 </category>
+          
+          <category> 基本知识点 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 知识 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安装分子动力学模拟软件GROMACS</title>
       <link href="/posts/f2ce2789.html"/>
       <url>/posts/f2ce2789.html</url>
@@ -93,17 +120,6 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>便携小空调 - 为你的夏日带去清凉!</title>
       <link href="/air-conditioner/index.html"/>
       <url>/air-conditioner/index.html</url>
@@ -115,9 +131,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/ali_font.js"/>
-      <url>/js/ali_font.js</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -137,9 +153,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/js/ali_font.js"/>
+      <url>/js/ali_font.js</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -159,11 +175,22 @@
     
     
     <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的歌单</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-SrxYeMnB" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
+        <content type="html"><![CDATA[<p><h1>兰音的音乐</h1><br>    <div id="aplayer-bhzvAGxl" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7125382993" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div></p>]]></content>
       
     </entry>
     
