@@ -3,11 +3,11 @@
   <title>XingHuiSama宝藏之地</title>
   
   <subtitle>博客</subtitle>
-  <link href="https://xinghuisama.top/atom.xml" rel="self"/>
+  <link href="https://www.xinghuisama.top/atom.xml" rel="self"/>
   
-  <link href="https://xinghuisama.top/"/>
+  <link href="https://www.xinghuisama.top/"/>
   <updated>2024-11-10T04:10:47.234Z</updated>
-  <id>https://xinghuisama.top/</id>
+  <id>https://www.xinghuisama.top/</id>
   
   <author>
     <name>XingHuiSama</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>分子动力学模拟基本知识点（1）</title>
-    <link href="https://xinghuisama.top/posts/a80b436f.html"/>
-    <id>https://xinghuisama.top/posts/a80b436f.html</id>
+    <link href="https://www.xinghuisama.top/posts/a80b436f.html"/>
+    <id>https://www.xinghuisama.top/posts/a80b436f.html</id>
     <published>2024-11-10T02:33:51.000Z</published>
     <updated>2024-11-10T04:10:47.234Z</updated>
     
@@ -30,19 +30,19 @@
     
     
     
-    <category term="分子动力学模拟" scheme="https://xinghuisama.top/categories/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/"/>
+    <category term="分子动力学模拟" scheme="https://www.xinghuisama.top/categories/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/"/>
     
-    <category term="基本知识点" scheme="https://xinghuisama.top/categories/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    <category term="基本知识点" scheme="https://www.xinghuisama.top/categories/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
     
     
-    <category term="知识" scheme="https://xinghuisama.top/tags/%E7%9F%A5%E8%AF%86/"/>
+    <category term="知识" scheme="https://www.xinghuisama.top/tags/%E7%9F%A5%E8%AF%86/"/>
     
   </entry>
   
   <entry>
     <title>安装分子动力学模拟软件GROMACS</title>
-    <link href="https://xinghuisama.top/posts/f2ce2789.html"/>
-    <id>https://xinghuisama.top/posts/f2ce2789.html</id>
+    <link href="https://www.xinghuisama.top/posts/f2ce2789.html"/>
+    <id>https://www.xinghuisama.top/posts/f2ce2789.html</id>
     <published>2024-11-04T02:24:53.000Z</published>
     <updated>2024-11-04T03:13:56.088Z</updated>
     
@@ -53,19 +53,19 @@
     
     
     
-    <category term="分子动力学模拟" scheme="https://xinghuisama.top/categories/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/"/>
+    <category term="分子动力学模拟" scheme="https://www.xinghuisama.top/categories/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/"/>
     
-    <category term="GROMACS" scheme="https://xinghuisama.top/categories/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/GROMACS/"/>
+    <category term="GROMACS" scheme="https://www.xinghuisama.top/categories/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/GROMACS/"/>
     
     
-    <category term="技术" scheme="https://xinghuisama.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://www.xinghuisama.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>MATLAB实现获取视频摄像头并实时处理视频帧</title>
-    <link href="https://xinghuisama.top/posts/f4d3b8c3.html"/>
-    <id>https://xinghuisama.top/posts/f4d3b8c3.html</id>
+    <link href="https://www.xinghuisama.top/posts/f4d3b8c3.html"/>
+    <id>https://www.xinghuisama.top/posts/f4d3b8c3.html</id>
     <published>2024-10-08T11:51:40.000Z</published>
     <updated>2024-10-19T04:19:24.395Z</updated>
     
@@ -76,17 +76,17 @@
     
     
     
-    <category term="MATLAB" scheme="https://xinghuisama.top/categories/MATLAB/"/>
+    <category term="MATLAB" scheme="https://www.xinghuisama.top/categories/MATLAB/"/>
     
     
-    <category term="技术" scheme="https://xinghuisama.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://www.xinghuisama.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>实习日常</title>
-    <link href="https://xinghuisama.top/posts/a143b26b.html"/>
-    <id>https://xinghuisama.top/posts/a143b26b.html</id>
+    <link href="https://www.xinghuisama.top/posts/a143b26b.html"/>
+    <id>https://www.xinghuisama.top/posts/a143b26b.html</id>
     <published>2024-07-21T14:07:31.000Z</published>
     <updated>2024-07-22T01:14:31.751Z</updated>
     
@@ -98,16 +98,16 @@
     
     
     
-    <category term="诗歌" scheme="https://xinghuisama.top/tags/%E8%AF%97%E6%AD%8C/"/>
+    <category term="诗歌" scheme="https://www.xinghuisama.top/tags/%E8%AF%97%E6%AD%8C/"/>
     
-    <category term="日常" scheme="https://xinghuisama.top/tags/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://www.xinghuisama.top/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://xinghuisama.top/posts/4a17b156.html"/>
-    <id>https://xinghuisama.top/posts/4a17b156.html</id>
+    <link href="https://www.xinghuisama.top/posts/4a17b156.html"/>
+    <id>https://www.xinghuisama.top/posts/4a17b156.html</id>
     <published>2024-07-10T02:47:13.520Z</published>
     <updated>2024-07-21T03:56:31.618Z</updated>
     
